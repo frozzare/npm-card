@@ -15,22 +15,22 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.white('               Fredrik Forsmo'),
+  handle: chalk.white('frozzare'),
+  work: chalk.white('Engineering @ isotop.se     '),
+  opensource: chalk.white('PHP, Go and JavaScript projects'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('frozzare'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~frozzare'),
+  github: chalk.gray('https://github.com/') + chalk.green('frozzare'),
+  makerlog: chalk.gray('https://getmakerlog.com/') + chalk.hex('#47e1a0').visible('@frozzare'),
+  web: chalk.cyan('https://frozzare.com'),
+  npx: chalk.red('npx') + ' ' + chalk.white('frozzare'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  labelMakerlog: chalk.white.bold('   MakerLog:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
@@ -43,7 +43,7 @@ const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
-const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+const makerloging = `${data.labelMakerlog}  ${data.makerlog}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
@@ -55,7 +55,7 @@ const output = heading + // data.name + data.handle
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               linkedining + newline + // data.labelLinkedIn + data.linkedin
+               makerloging + newline + // data.labelMakerlog + data.makerlog
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
